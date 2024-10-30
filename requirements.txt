@@ -1,1 +1,4 @@
-
+aiohttp
+websockets
+rich
+loguru
