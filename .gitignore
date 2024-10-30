@@ -1,18 +1,32 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Bytecode Python
+__pycache__/
+*.pyc
+*.pyo
 
-# Other files and folders
-.settings/
+# Lingkungan Virtual
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+.venv.bak/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Konfigurasi IDE/editor
+.vscode/
+.idea/
+*.sublime-workspace
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# File log dan output
+*.log
+*.out
+
+# Pengaturan OS
+.DS_Store
+Thumbs.db
+
+# File sensitif atau konfigurasi lokal
+proxy.json
+users.json
+
+# Lainnya
+*.bak
