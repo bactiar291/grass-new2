@@ -1,4 +1,3 @@
 aiohttp
-websockets
-rich
 loguru
+rich
